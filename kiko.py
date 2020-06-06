@@ -20,3 +20,5 @@ def prettyGrid(ax,color=(0.8,0.8,0.8),lw=1.5):
         ax.spines[ss].set(color=color,lw=lw)   
 
     ax.grid(color=color,lw=lw)
+
+    return ax
